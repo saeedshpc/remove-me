@@ -17,6 +17,10 @@ html {
   font-size: 62.5%;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: "Yekan Bakh";
 }
@@ -53,6 +57,18 @@ body {
   margin-bottom: 5.6rem;
 }
 
+.page-description .title-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.page-description .title-back a {
+  position: absolute;
+  left: 0;
+}
+
 .page-description h1 {
   font-size: 1.8rem;
   font-weight: bold;
@@ -62,6 +78,13 @@ body {
 .page-description p {
   color: var(--grayish-color-500);
   font-size: 1.4rem;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-bottom: 5.6rem;
 }
 
 .service {
@@ -76,16 +99,13 @@ body {
   color: var(--grayish-color-700);
 }
 
-.services {
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  margin-bottom: 5.6rem;
-}
-
 .service p {
   font-size: 1.2rem;
   color: var(--grayish-color-500);
+}
+
+.service .description {
+  margin-bottom: 1.6rem;
 }
 
 footer {
