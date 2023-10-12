@@ -68,6 +68,7 @@ body {
 .page-description .title-back a {
   position: absolute;
   left: 0;
+  top: 0;
 }
 
 .page-description h1 {
@@ -144,23 +145,23 @@ body {
   background-color: var(--grayish-color-800);
 }
 
-.operator .operator-footer {
+.operator-footer {
   font-size: 0.8rem;
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.operator .operator-footer .numbers {
+.operator-footer .numbers {
   font-size: 1.2rem;
 }
-.operator .operator-footer .seperator {
+.operator-footer .seperator {
   background: #9ca3af;
   width: 1px;
   height: 2rem;
 }
 
-.operator .operator-footer .points {
+.operator-footer .points {
   display: flex;
   background: #e5e7eb;
   align-items: center;
@@ -170,7 +171,7 @@ body {
   border-radius: 2px;
 }
 
-.operator .operator-footer .points span {
+.operator-footer .points span {
   font-size: 0.8rem;
 }
 
@@ -201,6 +202,39 @@ body {
   background: #d9d9d9;
   height: 1px;
   width: 100%;
+}
+
+.operator-profile-img {
+  width: 8rem;
+  height: 8rem;
+  background: var(--grayish-color-300);
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.6rem;
+}
+.works-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  margin-bottom: 6.5rem;
+}
+
+.work-image {
+  width: 11rem;
+  height: 11rem;
+  background: var(--grayish-color-300);
+}
+
+.primary-btn {
+  display: block;
+  width: 100%;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 5rem;
 }
 
 footer {
