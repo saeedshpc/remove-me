@@ -22,7 +22,8 @@ a {
 }
 
 body {
-  font-family: "Yekan Bakh";
+  color: var(--primary-color);
+  font-family: "Yekan Bakh FaNum";
 }
 
 .navbar {
@@ -80,7 +81,8 @@ body {
   font-size: 1.4rem;
 }
 
-.services {
+.services,
+.operators {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
@@ -106,6 +108,99 @@ body {
 
 .service .description {
   margin-bottom: 1.6rem;
+}
+
+.operators {
+  gap: 24px;
+}
+
+.operator {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.operator .description {
+  background-color: var(--grayish-color-200);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 16px;
+}
+
+.operator h2 {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+}
+
+.operator .operator-role {
+  font-size: 1.2rem;
+  margin-bottom: 3.2rem;
+  color: var(--grayish-color-500);
+}
+
+.operator-image {
+  width: 9rem;
+  background-color: var(--grayish-color-800);
+}
+
+.operator .operator-footer {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.operator .operator-footer .numbers {
+  font-size: 1.2rem;
+}
+.operator .operator-footer .seperator {
+  background: #9ca3af;
+  width: 1px;
+  height: 2rem;
+}
+
+.operator .operator-footer .points {
+  display: flex;
+  background: #e5e7eb;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+.operator .operator-footer .points span {
+  font-size: 0.8rem;
+}
+
+.operator .buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.6rem;
+}
+
+.btn {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  background: var(--primary-color);
+  color: white;
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.operator-seperator {
+  background: #d9d9d9;
+  height: 1px;
+  width: 100%;
 }
 
 footer {
