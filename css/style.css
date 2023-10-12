@@ -1,0 +1,147 @@
+:root {
+  --primary-color: #1f2937;
+  --grayish-color-800: #374151;
+  --grayish-color-500: #4b5563;
+  --grayish-color-300: #e5e7eb;
+  --grayish-color-200: #d1d5db;
+  --grayish-color-700: #1e1e1e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Yekan Bakh";
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 16px 16px 16px;
+  border-bottom: 1px solid var(--grayish-color-300);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.navbar .left-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  color: var(--primary-color);
+}
+
+.navbar .left-side .logo {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.page-description {
+  text-align: center;
+  padding-top: 4.2rem;
+  margin-bottom: 5.6rem;
+}
+
+.page-description h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+
+.page-description p {
+  color: var(--grayish-color-500);
+  font-size: 1.4rem;
+}
+
+.service {
+  background-color: var(--grayish-color-200);
+  border-radius: 5px;
+  padding: 24px;
+}
+
+.service h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+  color: var(--grayish-color-700);
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-bottom: 5.6rem;
+}
+
+.service p {
+  font-size: 1.2rem;
+  color: var(--grayish-color-500);
+}
+
+footer {
+  background-color: var(--grayish-color-800);
+  color: #fff;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+}
+
+.footer-header .salon-info h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.footer-header .salon-info p {
+  font-size: 1rem;
+}
+.footer-header .salon-info p:nth-child(2) {
+  margin-bottom: 0.5rem;
+}
+
+.footer-header .salon-social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-header .salon-social .insta-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+
+.product-info {
+  border-top: 1px solid var(--grayish-color-500);
+}
+
+.product-info .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.6rem;
+}
+
+.product-info .content a {
+  color: white;
+  text-decoration: none;
+}
