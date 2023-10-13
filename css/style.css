@@ -258,14 +258,14 @@ body {
 }
 
 .slider-container .dot.active {
-  width: 1.6rem;
+  width: 1.1rem;
   border-radius: 10px;
   background-color: var(--grayish-color-500);
 }
 
 .slider-container .dot {
-  width: 1rem;
-  height: 1rem;
+  width: 0.6rem;
+  height: 0.6rem;
   border-radius: 50%;
   background-color: var(--grayish-color-300);
 }
