@@ -219,7 +219,8 @@ body {
   margin-bottom: 6.5rem;
 }
 
-.work-image {
+.works-gallery a {
+  display: block;
   width: 32.9%;
   height: 10rem;
   padding-bottom: 14rem;
