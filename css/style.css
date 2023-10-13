@@ -50,6 +50,10 @@ body {
 .navbar .left-side .logo {
   font-weight: bold;
   font-size: 1.6rem;
+  color: var(--primary-color);
+}
+.navbar .left-side .logo a {
+  color: var(--primary-color);
 }
 
 .page-description {
