@@ -393,6 +393,123 @@ body {
 
 /* OPERATOR WORK PROFILE ENDS HERE */
 
+/* Set Appointment Starts Here */
+
+.select-month {
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+.select-box-container {
+  display: inline-block;
+  text-align: center;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: var(--primary-color);
+}
+.select-box-container select {
+  background: transparent;
+  color: #fff;
+  padding: 0;
+  border: none;
+}
+.select-box-container select:focus {
+  outline: none;
+}
+
+.select-box-container select option {
+  color: var(--primary-color);
+  font-family: inherit;
+}
+
+.days-wrapper {
+  margin-bottom: 3.2rem;
+}
+
+.days-swiper .day {
+  background: #9ca3af;
+  max-width: 5.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 14px 7px;
+  gap: 8px;
+  border-radius: 10px;
+}
+
+.day p:first-child {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.day p:last-child {
+  font-size: 1rem;
+}
+
+.pick-hour h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.pick-hour p {
+  text-align: center;
+  font-size: 1.4rem;
+  color: var(--grayish-color-500);
+  margin-bottom: 3.2rem;
+}
+
+.hours-container {
+  margin-bottom: 6.4rem;
+}
+
+.hours-swiper {
+}
+
+.hours-swiper .hour {
+  display: flex;
+  padding: 2px 12px;
+  justify-content: center;
+  align-items: center;
+  background: #9ca3af;
+  max-width: 63px;
+  border-radius: 5px;
+}
+
+.hours-swiper .hour label {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.hours-swiper .hour input {
+  display: none;
+}
+
+.submit-form {
+  margin-bottom: 3.2rem;
+}
+
+.submit-form .btn {
+  display: block;
+  padding: 10px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.notes {
+}
+
+.notes ul {
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* Appointment Ends here */
+
 footer {
   background-color: var(--grayish-color-800);
   color: #fff;
